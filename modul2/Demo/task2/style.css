@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(210, 209, 209);
+}
+
+.all {
+  display: grid;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tempat {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  width: 800px;
+  border-radius: 5px;
+}
+
+.judul-list {
+  text-align: center;
+  width: 840px;
+  border-radius: 4px;
+  background-color: rgb(92, 138, 246);
+  display: flex;
+  justify-content: center;
+}
+#push {
+  background-color: rgb(9, 168, 9);
+  border: none;
+  width: 100px;
+  height: 25px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.tempat2 {
+  text-align: center;
+  width: 840px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+ul {
+  list-style: none;
+}
+.list-bawah {
+  text-align: center;
+  width: 840px;
+  border-radius: 5px;
+  background-color: rgba(15, 171, 206, 0.757);
+  display: flex;
+  justify-content: center;
+}
+.all2 {
+  display: grid;
+  justify-content: center;
+  margin: 90px;
+}

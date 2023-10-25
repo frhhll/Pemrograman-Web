@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.all {
+  display: grid;
+  justify-content: center;
+  margin: 600px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #9cc8ef8b;
+  font-family: Poppins;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.text1 {
+  display: flex;
+  color: #000;
+  text-align: center;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+
+.text2 {
+  display: flex;
+  color: #24313d;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 6.4px;
+}
+
+.calculator-row {
+  display: flex;
+  height: 100%;
+}
+
+.calculator-col {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.calculator-body {
+  padding: 13px;
+  width: 370px;
+  height: auto;
+  border-radius: 6px;
+  background: #384450;
+}
+
+.cal-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 60px;
+  max-height: 60px;
+  padding: 16.25px;
+  border-radius: 18px;
+  background: #384450;
+  filter: drop-shadow(-8px -4px 26px #454f5b);
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.blue {
+  color: #4bd2c0;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.text {
+  text-align: center;
+  margin: 15px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-result {
+  max-height: 90px;
+  margin-top: 64px;
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+  text-align: end;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  background-color: #384450;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.result {
+  max-width: 100%;
+}
