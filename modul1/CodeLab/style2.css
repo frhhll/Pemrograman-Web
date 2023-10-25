@@ -1,0 +1,19 @@
+table {
+    background-color: gold;
+    border-collapse: collapse;
+    border-style: double;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    font-weight: bold; 
+    font-size: 20px; 
+    width: auto; 
+}
+
+th {
+    background-color: gold;
+    text-align: center;
+}
